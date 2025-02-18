@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    padding: 30px;
+}
+
+.text{
+    display: flex;
+    gap: 50px;
+}
+
+.link{
+    list-style: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: #949494;
+}
+
+
+button{
+    background-color: #8d939e;
+    color: #e3e3e3;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.home{
+    list-style: none;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
