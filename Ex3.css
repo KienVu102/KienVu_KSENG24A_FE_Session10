@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    width:35%;
+    margin: 20px;
+    background-color: #f9fafc;
+    padding: 20px;
+}
+
+.pic{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.basketball{
+    position: relative;
+}
+
+button{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.picavt{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+.avt{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    font-weight: bold;
+    top: 15px;
+    left: 50px;
+}
+
+p{
+    color: #808284;
+}
